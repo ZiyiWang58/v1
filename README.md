@@ -1,4 +1,4 @@
-# Temperature-Responsive Light with Touch Control (Arduino MKR1010)
+# Temperature-Responsive Light (Arduino WiFi MKR1010)
 
 > **Ziyi Wang – CASA0014 Coursework Project (Oct 2025)**  
 > A simple interactive IoT light system using Arduino WiFi MKR1010, temperature sensor and touch sensor.
@@ -9,7 +9,7 @@
 
 This project demonstrates how external data (temperature) can be translated into dynamic light feedback and how user interaction (touch) can control lighting modes.
 
-- Built with **Arduino MKR1010**
+- Built with **Arduino WiFi MKR1010**
 - Uses **WiFi** + **MQTT** to communicate with the *Vespera* light system
 - Integrates **a temperature sensor (MCP9700AE)** and **a touch sensor (HW-139)**
 - Sends real-time color data to a remote LED array
@@ -30,24 +30,30 @@ This project demonstrates how external data (temperature) can be translated into
 ## Circuit Wiring
 
 - **Temperature sensor (MCP9700AE)**
-  - `VCC` → `3.3V`
-  - `GND` → `GND`
-  - `OUT` → `A0`
-
+  
+  | **VCC** | **3.3V** |
+  | ------- | -------- |
+  | **GND** | **GND**  |
+  | **OUT** | **A0**   |
+  
 - **Touch sensor (HW-139)**
-  - `VCC` → `3.3V`
-  - `GND` → `GND`
-  - `OUT` → `A2`
+  
+  | **VCC** | **3.3V** |
+  | ------- | -------- |
+  | **GND** | **GND**  |
+  | **OUT** | **A2**   |
 
 ---
 
 ## Software Setup
 
 1. **Install the following Arduino libraries:**
-   - `WiFiNINA`
-   - `PubSubClient`
-
+   
+   - WiFiNINA
+   - PubSubClient
+   
 2. **MQTT Configuration:**
+   
    ```cpp
    const char* ssid = "CE-Hub-Student";
    const char* password = "...";
@@ -57,8 +63,8 @@ This project demonstrates how external data (temperature) can be translated into
    const char* mqtt_password = "ce2021-mqtt-forget-whale";
    String lightId = "27";
    ```
-
-3. **Upload the code (`v1.ino`)** to your Arduino MKR1010.
+   
+3. **Upload the code (`v1.ino`)** to Arduino WiFi MKR1010.
 
 ---
 
@@ -83,16 +89,6 @@ This project demonstrates how external data (temperature) can be translated into
 
 ---
 
-## MQTT Topic Structure
-
-The system publishes to:
-```
-student/CASA0014/luminaire/<lightId>
-```
-Each message is an RGB byte array representing all 72 LEDs on the Vespera light system.
-
----
-
 ## Version History
 
 | Version | Date | Description |
@@ -113,9 +109,15 @@ Each message is an RGB byte array representing all 72 LEDs on the Vespera light 
 
 ## Circuit Layout
 
+![circuit](C:\Users\16974\Desktop\circuit.png)
+
 ---
 
 ## Product Appearance
+
+![img1](C:\Users\16974\Desktop\img1.jpg)
+
+![img2](C:\Users\16974\Desktop\img2.jpg)
 
 ---
 
