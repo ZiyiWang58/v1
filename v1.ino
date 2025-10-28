@@ -13,8 +13,8 @@ int mode = 0;               // 0 = before first detection, 1 = fix first detecti
 bool lastTouchState = LOW;  // Detect touch
 
 // Network Configuration
-const char* ssid = "Glide-US-Resident";
-const char* password = "ColdAgedCadet";
+const char* ssid          = "CE-Hub-Student";
+const char* password      = "casa-ce-gagarin-public-service";
 const char* mqtt_username = "student";
 const char* mqtt_password = "ce2021-mqtt-forget-whale";
 const char* mqtt_server = "mqtt.cetools.org";
