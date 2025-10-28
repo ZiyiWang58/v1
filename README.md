@@ -113,14 +113,14 @@ Each message is an RGB byte array representing all 72 LEDs on the Vespera light 
 
 ## Circuit Layout
 
-![img1](https://github.com/user-attachments/assets/33a815fd-ac14-4a79-9aed-d3901c26eb64)
-![img2](https://github.com/user-attachments/assets/6724ecc6-d47c-40c9-9192-34aad46b301e)
+<img width="1096" height="593" alt="circuit" src="https://github.com/user-attachments/assets/e83053e6-f942-46ea-96d7-9121599613af" />
 
 ---
 
 ## Product Appearance
 
-<img width="1096" height="593" alt="circuit" src="https://github.com/user-attachments/assets/f9fc74f8-8f6a-4daa-886a-0d8c79399c9d" />
+![img1](https://github.com/user-attachments/assets/42a71c09-a5a6-4f33-aed4-c6332932d6c9)
+![img2](https://github.com/user-attachments/assets/0aba040c-5aba-4916-b341-1d1a458eeae6)
 
 ---
 
