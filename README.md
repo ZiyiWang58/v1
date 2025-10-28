@@ -101,23 +101,20 @@ This project demonstrates how external data (temperature) can be translated into
 
 ## Enclosure & Physical Design
 
-- **Controller housing:** paper box  
-  (holds Arduino and touch sensor)
+- **Controller housing:** paper box  (holds Arduino and touch sensor)
 - **Temperature sensor:** placed outside box.
 
 ---
 
 ## Circuit Layout
 
-![circuit](C:\Users\16974\Desktop\circuit.png)
+
 
 ---
 
 ## Product Appearance
 
-![img1](C:\Users\16974\Desktop\img1.jpg)
 
-![img2](C:\Users\16974\Desktop\img2.jpg)
 
 ---
 
