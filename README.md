@@ -21,8 +21,8 @@ This project demonstrates how external data (temperature) can be translated into
 | Component | Description | Pin |
 |------------|--------------|-----|
 | **Arduino WiFi MKR1010** | Main microcontroller with WiFi | — |
-| **Temperature Sensor (MCP9700AE)** | Outputs voltage proportional to temperature | `A0` |
-| **Touch Sensor (HW-139)** | Used to switch lighting modes | `A2` |
+| **Temperature Sensor (MCP9700AE)** | Outputs voltage proportional to temperature | A0 |
+| **Touch Sensor (HW-139)** | Used to switch lighting modes | A2 |
 | **Vespera / NeoPixel Light** | 72 LEDs receiving RGB values | via MQTT |
 
 ---
