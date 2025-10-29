@@ -18,12 +18,6 @@ This project produced a device that can change the colours of a light based on t
 
 ## Workflow
 
-| ![image-20251029020030584](C:\Users\16974\AppData\Roaming\Typora\typora-user-images\image-20251029020030584.png) | ![image-20251029020044287](C:\Users\16974\AppData\Roaming\Typora\typora-user-images\image-20251029020044287.png) | ![image-20251029020101829](C:\Users\16974\AppData\Roaming\Typora\typora-user-images\image-20251029020101829.png) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 1. Initial state (mode 0): left half lights on, right half lights off, waiting for the first detection. | 2. Hold the temperature sensor, the colour of left half lights change with temperature, the higher the temperature, the more red appears. | 3. Half fixed (mode 1): touch the touch sensor, left half lights fixed, active right half lights, waiting for the second detection. |
-|                                                              |                                                              |                                                              |
-| 4. Hold the temperature sensor, the colour of right half lights change with temperature. | 5. Compare state (mode 2): touch the touch sensor, both halves fixed, the temperatures of two detections can be compared. | 6. Reset (back to mode 0): touch the touch sensor, reset to initial state. |
-
 
 
 ------
