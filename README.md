@@ -1,4 +1,4 @@
-# Temperature-Responsive Light (Arduino WiFi MKR1010)
+# Temperature-Responsive Light (Arduino MKR WiFi 1010)
 
 > **Ziyi Wang – CASA0014 Coursework Project (Oct 2025)**  
 > A simple interactive IoT light system using Arduino WiFi MKR1010, temperature sensor and touch sensor.
@@ -9,7 +9,7 @@
 
 This project produced a device that can change the colours of a light based on temperature and compare the results of two detections.
 
-- Built with **Arduino WiFi MKR1010**
+- Built with **Arduino MKR WiFi 1010**
 - Uses **WiFi** + **MQTT** to communicate with the *Vespera* light system
 - Integrates **a temperature sensor (MCP9700AE)** and **a touch sensor (HW-139)**
 - Sends real-time color data to a remote LED array
@@ -47,7 +47,7 @@ This project produced a device that can change the colours of a light based on t
 
 | Component | Description | Pin |
 |------------|--------------|-----|
-| **Arduino WiFi MKR1010** | Main microcontroller with WiFi | — |
+| **Arduino MKR WiFi 1010** | Main microcontroller with WiFi | — |
 | **Temperature Sensor (MCP9700AE)** | Outputs voltage proportional to temperature | A0 |
 | **Touch Sensor (HW-139)** | Used to switch lighting modes | A2 |
 | **Vespera / NeoPixel Light** | 72 LEDs receiving RGB values | via MQTT |
@@ -91,7 +91,7 @@ This project produced a device that can change the colours of a light based on t
    String lightId = "27";
    ```
    
-3. **Upload the code (`v1.ino`)** to Arduino WiFi MKR1010.
+3. **Upload the code (`v1.ino`)** to Arduino MKR WiFi 1010.
 
 ---
 
