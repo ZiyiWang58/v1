@@ -18,10 +18,16 @@ This project produced a device that can change the colours of a light based on t
 
 ## Workflow
 
-| ![image-20251029020030584](C:\Users\16974\AppData\Roaming\Typora\typora-user-images\image-20251029020030584.png) | ![image-20251029020044287](C:\Users\16974\AppData\Roaming\Typora\typora-user-images\image-20251029020044287.png) | ![image-20251029020101829](C:\Users\16974\AppData\Roaming\Typora\typora-user-images\image-20251029020101829.png) |
+| ![35f9c2ad50eed00ed7a20a366ebf018e](https://github.com/user-attachments/assets/a20aa24b-42bf-44cf-96b1-a3be4d3af60e)
+ | ![738651a6279b99773060ade4a73e0bc9](https://github.com/user-attachments/assets/64b95d19-06fb-4fc3-bf4e-844a55d7b97f)
+ | ![f8a49420fbb9b6e49356668831bf1dfd](https://github.com/user-attachments/assets/37c16f98-d3d2-43fe-9a5b-55a831174af0)
+ |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1. Initial state (mode 0): left half lights on, right half lights off, waiting for the first detection. | 2. Hold the temperature sensor, the colour of left half lights change with temperature, the higher the temperature, the more red appears. | 3. Half fixed (mode 1): touch the touch sensor, left half lights fixed, active right half lights, waiting for the second detection. |
-|                                                              |                                                              |                                                              |
+| ![350cc1fa89153ca77c215a1323eadf56](https://github.com/user-attachments/assets/c93fde21-e32c-418a-acc9-6784429d64e4)
+ | ![f3e87d685845e6d291231b11a0977b9f](https://github.com/user-attachments/assets/d2242627-6ae3-4c2a-9ed7-d38ff47312ed)
+ | ![8b0aca7eadda1aa9834fed876fe2f212](https://github.com/user-attachments/assets/2d159eaf-2ca2-4bf3-bc4d-0dacdeb6ec48)
+ |
 | 4. Hold the temperature sensor, the colour of right half lights change with temperature. | 5. Compare state (mode 2): touch the touch sensor, both halves fixed, the temperatures of two detections can be compared. | 6. Reset (back to mode 0): touch the touch sensor, reset to initial state. |
 
 
@@ -120,13 +126,14 @@ This project produced a device that can change the colours of a light based on t
 
 ## Circuit Layout
 
-
+<img width="1096" height="593" alt="circuit" src="https://github.com/user-attachments/assets/bc75a6df-fd60-4cb4-b8d7-59fb324fdbe5" />
 
 ---
 
 ## Product Appearance
 
-
+![img1](https://github.com/user-attachments/assets/7ba59da9-f518-4905-a582-54d0ce1b1f69)
+![img2](https://github.com/user-attachments/assets/cd011a0f-1f85-465c-840d-55d5cc9c5b8c)
 
 ---
 
