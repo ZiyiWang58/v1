@@ -7,7 +7,7 @@
 
 ## Project Overview
 
-This project demonstrates how external data (temperature) can be translated into dynamic light feedback and how user interaction (touch) can control lighting modes.
+This project produced a device that can change the colours of a light based on temperature and compare the results of two detections.
 
 - Built with **Arduino WiFi MKR1010**
 - Uses **WiFi** + **MQTT** to communicate with the *Vespera* light system
@@ -15,6 +15,18 @@ This project demonstrates how external data (temperature) can be translated into
 - Sends real-time color data to a remote LED array
 
 ---
+
+## Workflow
+
+| ![image-20251029020030584](C:\Users\16974\AppData\Roaming\Typora\typora-user-images\image-20251029020030584.png) | ![image-20251029020044287](C:\Users\16974\AppData\Roaming\Typora\typora-user-images\image-20251029020044287.png) | ![image-20251029020101829](C:\Users\16974\AppData\Roaming\Typora\typora-user-images\image-20251029020101829.png) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 1. Initial state (mode 0): left half lights on, right half lights off, waiting for the first detection. | 2. Hold the temperature sensor, the colour of left half lights change with temperature, the higher the temperature, the more red appears. | 3. Half fixed (mode 1): touch the touch sensor, left half lights fixed, active right half lights, waiting for the second detection. |
+|                                                              |                                                              |                                                              |
+| 4. Hold the temperature sensor, the colour of right half lights change with temperature. | 5. Compare state (mode 2): touch the touch sensor, both halves fixed, the temperatures of two detections can be compared. | 6. Reset (back to mode 0): touch the touch sensor, reset to initial state. |
+
+
+
+------
 
 ## Hardware Components
 
@@ -108,14 +120,13 @@ This project demonstrates how external data (temperature) can be translated into
 
 ## Circuit Layout
 
-<img width="1096" height="593" alt="circuit" src="https://github.com/user-attachments/assets/a259f4e5-45bd-451e-bca9-eea321083ed1" />
+
 
 ---
 
 ## Product Appearance
 
-![img1](https://github.com/user-attachments/assets/de99417a-45f9-400d-995b-77f19907af45)
-![img2](https://github.com/user-attachments/assets/2b15ac76-c429-45cb-a0c0-39d7ebada3dd)
+
 
 ---
 
