@@ -18,7 +18,28 @@ This project produced a device that can change the colours of a light based on t
 
 ## Workflow
 
-
+<table>
+  <tr>
+    <td align="center"><img src="img/fig1.jpg" width="200"></td>
+    <td align="center"><img src="img/fig2.jpg" width="200"></td>
+    <td align="center"><img src="img/fig3.jpg" width="200"></td>
+  </tr>
+  <tr>
+    <td align="center">1. Initial state (mode 0): left half lights on, right half lights off, waiting for the first detection.</td>
+    <td align="center">2. Hold the temperature sensor, the colour of left half lights change with temperature, the higher the temperature, the more red appears.</td>
+    <td align="center">3. Half fixed (mode 1): touch the touch sensor, left half lights fixed, active right half lights, waiting for the second detection.</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="img/fig4.jpg" width="200"></td>
+    <td align="center"><img src="img/fig5.jpg" width="200"></td>
+    <td align="center"><img src="img/fig6.jpg" width="200"></td>
+  </tr>
+  <tr>
+    <td align="center">4. Hold the temperature sensor, the colour of right half lights change with temperature.</td>
+    <td align="center">5. Compare state (mode 2): touch the touch sensor, both halves fixed, the temperatures of two detections can be compared.</td>
+    <td align="center">6. Reset (back to mode 0): touch the touch sensor, reset to initial state.</td>
+  </tr>
+</table>
 
 ------
 
@@ -114,13 +135,14 @@ This project produced a device that can change the colours of a light based on t
 
 ## Circuit Layout
 
-
+<img width="1096" height="593" alt="circuit" src="https://github.com/user-attachments/assets/3f6fc7d9-ae91-441b-a7c6-27ec68455d98" />
 
 ---
 
 ## Product Appearance
 
-
+![img1](https://github.com/user-attachments/assets/52a24dd5-556f-4d40-af70-8c0f40fd93e2)
+![img2](https://github.com/user-attachments/assets/f3544816-533d-4353-927f-4c32f8b05f19)
 
 ---
 
